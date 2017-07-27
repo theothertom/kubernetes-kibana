@@ -7,5 +7,6 @@ RUN chown kibana:kibana /usr/share/kibana/config/kibana.yml
 RUN chown kibana:kibana /usr/share/kibana/bin/kibana
 
 USER kibana
+RUN kibana-plugin remove x-pack
 EXPOSE 5601
 ENTRYPOINT /usr/share/kibana/bin/kibana

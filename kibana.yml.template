@@ -4,4 +4,3 @@
 server.name: kibana
 server.host: "0"
 elasticsearch.url: http://ES_HOST:9200
-xpack.monitoring.ui.container.elasticsearch.enabled: false
